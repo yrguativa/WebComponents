@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Components</title>
+    <script src="./tooltip.js"></script>
+    <style>
+        html{
+            --primary-color: gold;
+            --secondary-color: darkblue;
+        }
+    </style>
+</head>
+
+<body>
+    <wc-tooltip text-tooltip="My dog is a lot big!">
+        🦊 <span class="bold-text">Hi!</span>
+    </wc-tooltip>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <p>
+        <wc-tooltip text-tooltip="This is my frog, It is green and yellow color!">
+            🐸 Bye!
+        </wc-tooltip>
+    </p>
+</body>
+
+</html>
